@@ -19,5 +19,20 @@ def abc(request):
 def index(request):
     return render(request, 'index.html')
 
-def teste(request):
-    return render(request, 'teste.html')
+# def teste(request):
+    # return render(request, 'teste.html')
+
+def aluno(request):
+    return render(request, 'aluno.html')
+
+def instrutor(request):
+    return render(request, 'instrutor.html')
+
+def tipo_de_atividade(request):
+    return render(request,'tipo_de_atividade.html')
+
+def turma(request):
+    return render(request,'turma.html')
+
+def utilitarios(request):
+    return render(request, 'utilitarios.html')
