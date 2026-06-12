@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'instrutor.apps.InstrutorConfig',
     'tipodeatividade.apps.TipodeatividadeConfig',
     'turma.apps.TurmaConfig',
+    'contato.apps.ContatoConfig',
     'utilitarios.apps.UtilitariosConfig',
 ]
 

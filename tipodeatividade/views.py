@@ -7,4 +7,4 @@ def cadastro(request):
     return render(request, 'tipodeatividade/cadastroTiposAtividade.html')
 
 def listar(request):
-    return render(request, 'tipodeatividade/listarTiposAtividades.html')
+    return render(request, 'tipodeatividade/listarTiposAtividade.html')
